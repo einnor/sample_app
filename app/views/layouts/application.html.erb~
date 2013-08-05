@@ -2,7 +2,7 @@
 <html>
   <head>
     <title>Ruby on Rails Tutorial Sample App | <%= @title%></title>
-    <!--Tp prevent Cross Site Request Forgery-->
+    <!--Tp prevent Cross Site Reference Forgery-->
     <%= csrf_meta_tag %>
   </head>
   <body>
