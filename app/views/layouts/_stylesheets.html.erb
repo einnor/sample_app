@@ -1,0 +1,14 @@
+<!--Bringing Internet Explorer up to speed with HTML5-->
+    <!--[if lt IE 9]>
+    	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <%= stylesheet_link_tag 'blueprint/screen', :media => 'screen' %>
+    <%= stylesheet_link_tag 'blueprint/print', :media => 'print' %>
+
+    <!--Bringing Internet Explorer up to speed with Blueprint-->
+    <!--[if lt IE 8]>
+    	<%= stylesheet_link_tag 'blueprint/ie'%>
+    <![endif]-->
+
+    <%= stylesheet_link_tag 'custom', :media => 'screen' %>
