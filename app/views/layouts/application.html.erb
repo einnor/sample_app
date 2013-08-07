@@ -4,6 +4,8 @@
     <title><%= title %></title>
     <!--Tp prevent Cross Site Request Forgery-->
     <%= csrf_meta_tag %>
+    <%= stylesheet_link_tag 'blueprint/screen', :media => 'screen' %>
+    <%= stylesheet_link_tag 'blueprint/print', :media => 'print' %>
   </head>
   <body>
 		<%= yield%>
