@@ -10,11 +10,19 @@
   <body>
 		<!--The whole page goes inside a div class called container-->
   	<div class="container">
+
+  		<!--The header of the page-->
 			<%= render "layouts/header" %>
+
   		<!--The main section of the page-->
   		<section class="round">
 				<%= yield%>
   		</section>
+
+  		<!--The footer of the page-->
+  		<%= render "layouts/footer" %>
+
+  		<%= debug(params) %>
 
   	</div>
 
