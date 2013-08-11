@@ -21,6 +21,9 @@ gem 'coffee-rails', '~> 4.0.0'
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 
+#A configurable and documented Rails view helper for adding gravatars into your rails application
+gem 'gravatar_image_tag', '~>1.1.3'
+
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'turbolinks'
 
