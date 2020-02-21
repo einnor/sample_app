@@ -37,7 +37,7 @@ end
 
 group :development, :test do
 	gem 'rspec-rails', '~>2.0'
-	gem 'annotate', '~>2.4.0'
+	gem 'annotate', '~>3.1.0'
 	gem 'factory_girl_rails', '~>4.2.1'
 end
 
